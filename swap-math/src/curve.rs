@@ -1,7 +1,7 @@
 //! Swap calculations and curve invariant implementation
 
 use num_traits::ToPrimitive;
-use stable_swap_client::fees::Fees;
+use swap_client::fees::Fees;
 
 use crate::{bn::U192, math::FeeCalculator};
 
